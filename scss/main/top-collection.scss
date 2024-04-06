@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+.container {
+    .top-collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+
+        &-link{
+            padding-bottom: 110px;
+            padding-top: 85px;
+            width: 1250px;
+            display: flex;
+            justify-content: right;
+            & a{
+                padding-right: 27px;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                & span{
+                    font-family: "Poppins";
+                    font-weight: 500;
+                    font-size: 17px;
+                    color: #ACADB9;
+                    padding-right: 16px;
+                }
+
+            }
+        }
+
+        & h2{
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 45px;
+            padding-top: 148px;
+            padding-bottom: 90px;
+        }
+
+        &-table {
+            display:table;
+            width: 1250px;
+            border-collapse: collapse;
+            
+            & tr{
+                text-align: left;
+                & th {
+                    font-family: "Poppins";
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #93989A;
+                }
+
+                
+            }
+            & td{
+                border-bottom: #EBE9E9 solid 1px;
+                padding-bottom: 20px;
+                padding-top: 43px;
+            }
+            
+            &__collection{
+                display: flex;
+                align-items: center;
+                & div{
+                    padding-left: 23px;
+                    display: flex;
+                    flex-direction: column;
+                    :first-child{
+                        font-family: "Poppins";
+                        font-weight: 500;
+                        font-size: 28px;
+                    }
+                    :last-child{
+                        font-family: "Poppins";
+                        font-weight: 400;
+                        font-size: 22px;
+                        color: #64748B;
+                    }
+                }
+            }
+            &__volume{
+                & div{
+                    display: flex;
+                    align-items: center;
+                }
+                & span{
+                    font-family: "Poppins";
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+            }
+            &__per-day{
+                & span{
+                    color: #10C352;
+                    font-family: "Poppins";
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+            }
+            &__floor-price{
+                & div{
+                    display: flex;
+                    align-items: center;
+                }
+                & span{
+                    font-family: "Poppins";
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+            }
+            &__owners{
+                & span{
+                    font-family: "Poppins";
+                    font-weight: 500;
+                    font-size: 23px;
+                }
+            }
+            &__items{
+                & span{
+                    font-family: "Poppins";
+                    font-weight: 500;
+                    font-size: 23px;
+                }
+            }
+        }
+
+       
+        
+        
+    }
+    
+}

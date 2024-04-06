@@ -1,0 +1,11 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu {
+    width: 1075px;
+  }
+  .top-wrapper-description {
+    padding-left: 5.5%;
+  }
+  .top-wrapper-decoration {
+    transform: scale(0.7);
+  }
+}/*# sourceMappingURL=media.css.map */

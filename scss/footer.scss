@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    .footer-wrapper{
+        width: 100%;
+        background-color: #141416;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        &-about{
+            padding-top: 110px;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &-logo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                & span{
+                    font-family: "Poppins";
+                    line-height: 130%;
+                    font-weight: 600;
+                    font-size: 30px;
+                    color: #FFFF;
+                    margin-left: 10px;
+                }
+                & img{
+                    filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(692%) hue-rotate(216deg) brightness(120%) contrast(101%);
+                }
+            }
+            &-link{
+                width: 45%;
+                & ul{
+                    line-height: 26.7px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    list-style-type: none;
+
+                    & a{
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: #B9B9B9;
+                        line-height: 26.7px;
+                    }
+                }
+            }
+        }
+        &-divider{
+            width: 65%;
+            margin: 37px 0;
+            height: 2px;
+            background-color: #818181;
+            opacity: 25%;
+        }
+        &-copyrights{
+            padding-bottom: 81px;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & span{
+                font-family: "Inter";
+                font-size: 15px;
+                font-weight: 500;
+                color: #999999;
+            }
+            &-social{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style-type: none;
+                width: 19%;
+            }
+        }
+    }
+}
