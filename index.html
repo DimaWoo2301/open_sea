@@ -5,22 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discover And Create NFTs</title>
     <link rel="shortcut icon" href="images/main/mdi_ethereum.svg" type="image/x-icon">
-
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/top.css" />
-    <link rel="stylesheet" href="css/most-popular.css" />
-    <link rel="stylesheet" href="css/top-collection.css" />
-    <link rel="stylesheet" href="css/explore-marketplace.css" />
-    <link rel="stylesheet" href="css/down.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body>
     <header>
       <div class="container">
         <div class="menu">
-          <img src="/images/main/Wave.svg" alt="future Img" class="menu-logo" />
+          <img src="images/main/Wave.svg" alt="future Img" class="menu-logo" />
           <ul class="menu-navbar">
             <li>
               <a href="#">Discover</a>
@@ -78,28 +70,16 @@
 
               <div class="top-wrapper-description-stats">
                 <div class="top-wrapper-description-stats__column">
-                  <span class="top-wrapper-description-stats__column__num"
-                    >430K+</span
-                  >
-                  <span class="top-wrapper-description-stats__column__text"
-                    >Art Works</span
-                  >
+                  <span class="top-wrapper-description-stats__column__num">430K+</span>
+                  <span class="top-wrapper-description-stats__column__text">Art Works</span>
                 </div>
                 <div class="top-wrapper-description-stats__column">
-                  <span class="top-wrapper-description-stats__column__num"
-                    >159K+</span
-                  >
-                  <span class="top-wrapper-description-stats__column__text"
-                    >Creators</span
-                  >
+                  <span class="top-wrapper-description-stats__column__num">159K+</span>
+                  <span class="top-wrapper-description-stats__column__text">Creators</span>
                 </div>
                 <div class="top-wrapper-description-stats__column">
-                  <span class="top-wrapper-description-stats__column__num"
-                    >87K+</span
-                  >
-                  <span class="top-wrapper-description-stats__column__text"
-                    >Collections</span
-                  >
+                  <span class="top-wrapper-description-stats__column__num">87K+</span>
+                  <span class="top-wrapper-description-stats__column__text">Collections</span>
                 </div>
               </div>
             </div>
@@ -321,8 +301,36 @@
         <div class="container">
           <div class="top-collection">
             <h2>Top Collection</h2>
-            <table class="top-collection-table">
-              <tr>
+            <!-- <table class="top-collection-table"> -->
+              <div class="top-collection-wrapper">
+                <div class="top-collection-author">
+                  <img src="images/main/top-collection/icon1.png" alt="person avatar">
+                  <div class="top-collection-author__items">
+                    <span>Alex Ca.</span>
+                    <span>By Alex</span>
+                  </div>
+                </div>
+                <div class="top-collection-info">
+                  <div class="top-collection-info__items">
+                    <img src="images/main/mdi_ethereum.svg" alt="person avatar" />
+                    <span>8,456</span>
+                  </div>
+                  <div class="top-collection-info__items">
+                    <span>+ 27.78%</span>
+                  </div>
+                  <div class="top-collection-info__items">
+                    <img src="images/main/mdi_ethereum.svg" alt="person avatar" />
+                    <span>3,5</span>
+                  </div>
+                  <div class="top-collection-info__items">
+                    <span>2.2K</span>
+                  </div>
+                  <div class="top-collection-info__items">
+                    <span>500</span>
+                  </div>
+                </div>
+              </div>
+              <!-- <tr>
                 <th>Collection</th>
                 <th>Volume</th>
                 <th>24h %</th>
@@ -331,34 +339,35 @@
                 <th>Items</th>
               </tr>
               <tr>
-                <td class="top-collection-table__collection">
-                  <img src="images/main/top-collection/icon1.png" alt="person avatar" />
-                  <div>
-                    <span>Alex Ca.</span>
-                    <span>By Alex</span>
-                  </div>
-                </td>
-                <td class="top-collection-table__volume">
-                  <div>
-                    <img src="images/main/mdi_ethereum.svg" alt="person avatar" />
-                    <span>8,456</span>
-                  </div>
-                </td>
-                <td class="top-collection-table__per-day">
-                  <span>+ 27.78%</span>
-                </td>
-                <td class="top-collection-table__floor-price">
-                  <div>
-                    <img src="images/main/mdi_ethereum.svg" alt="person avatar" />
-                    <span>3,5</span>
-                  </div>
-                </td>
-                <td class="top-collection-table__owners">
-                  <span>2.2K</span>
-                </td>
-                <td class="top-collection-table__items">
-                  <span>500</span>
-                </td>
+                  <td class="top-collection-table__collection">
+                    <img src="images/main/top-collection/icon1.png" alt="person avatar" />
+                    <div>
+                      <span>Alex Ca.</span>
+                      <span>By Alex</span>
+                    </div>
+                  </td>
+                  <td class="top-collection-table__volume">
+                    <div>
+                      <img src="images/main/mdi_ethereum.svg" alt="person avatar" />
+                      <span>8,456</span>
+                    </div>
+                  </td>
+                  <td class="top-collection-table__per-day">
+                    <span>+ 27.78%</span>
+                  </td>
+                  <td class="top-collection-table__floor-price">
+                    <div>
+                      <img src="images/main/mdi_ethereum.svg" alt="person avatar" />
+                      <span>3,5</span>
+                    </div>
+                  </td>
+                  <td class="top-collection-table__owners">
+                    <span>2.2K</span>
+                  </td>
+                  <td class="top-collection-table__items">
+                    <span>500</span>
+                  </td>
+                </div>
               </tr>
               <tr>
                 <td class="top-collection-table__collection">
@@ -449,8 +458,8 @@
                 <td class="top-collection-table__items">
                   <span>900</span>
                 </td>
-              </tr>
-            </table>
+              </tr> -->
+            <!-- </table> -->
             <div class="top-collection-link">
               <a href="#">
                 <span>Explore All</span>
