@@ -24,37 +24,26 @@
             display: flex;
             justify-content: space-between;
             width: 45%;
+
+            button{
+                & img{
+                    padding-right: 9px;
+                    fill: black;
+                }
+                border: 2px solid #000000;
+                background-color: #ffffff;
+                border-radius: 16px;
+                font-family: "Manrope";
+                font-weight: 600;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+
+            }
             .filter{
-                &__settings{
-                    & img{
-                        padding-right: 9px;
-                    }
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border: 2px solid #000000;
-                    background-color: white;
-                    border-radius: 16px;
-                    font-family: "Manrope";
-                    font-size: 15px;
-                    font-weight: 600;
-                }
                 &__all{
-                    
-                    width: 72px;
-                    height: 56px;
-                }
-                &__category{
-                    width: 137px;
-                    height: 56px;
-                }
-                &__collection{
-                   width: 145px;
-                    height: 56px;
-                }
-                &__price{
-                    width: 124px;
-                    height: 57px;
+                    padding: 10px 30px;
                 }
             }
             
@@ -83,6 +72,7 @@
         &__nft-card{
             width: 100%;
             padding-top: 100px;
+
             &__first-line{
                 display: flex;
                 width: 100%;
@@ -101,8 +91,7 @@
                     height: 402.28px;
                     background-color: white;
                     box-shadow: 10px 0px 30px rgb(212, 212, 212);
-                    
-                    
+
                 }
                 &__img{
                     & img{
@@ -132,6 +121,7 @@
                             letter-spacing: 0.12px;
                             line-height: 150%;
                             border: none;
+                            cursor: pointer;
                         }
                         & span{
                             display: flex;

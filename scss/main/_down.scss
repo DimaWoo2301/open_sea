@@ -76,7 +76,6 @@
 
         }
         &-conclusion{
-            z-index: -2;
             margin-top: 180px;
             margin-bottom: 160px;
             width: 63%;
@@ -86,6 +85,28 @@
             display: flex;
             justify-content: space-between;
             &__interactive{
+                
+                button:first-child:hover{
+                    background-color: #000000;
+                    border: 2px solid #ffffff;
+                    color: #ffffff;
+                    transform: scale(1.2);
+                }
+                button:last-child:hover{
+                    background-color: #ffffff;
+                    color: #000000;
+                    transform: scale(1.2);
+                }
+                button{
+                    transition: transform 1s ease;
+                    width: 183px;
+                    height: 67px;
+                    border-radius: 12px;
+                    font-family: "Outfit";
+                    font-size: 21px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
                 padding-left: 66px;
                 &-title{
                     padding-top: 44px;
@@ -105,27 +126,17 @@
                 }
                 &-button{
                     padding-top: 50px;
+
                     :first-child{
                         background-color: white;
-                        width: 183px;
-                        height: 67px;
-                        border-radius: 12px;
-                        border: none;
 
-                        font-family: "Outfit";
-                        font-size: 21px;
-                        font-weight: 600;
+                        border: none;
                         margin-right: 30px;
                     }
                     :last-child{
                         background-color: black;
                         color: white;
-                        width: 183px;
-                        height: 67px;
-                        border-radius: 12px;
                         border: 2px solid white;
-
-                        font-family: "Outfit";
                         font-size: 21px;
                         font-weight: 600;
                     }
